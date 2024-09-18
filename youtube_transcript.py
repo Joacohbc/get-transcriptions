@@ -43,7 +43,7 @@ def download_transcripts(urls_file, language="en"):
             filename = f"{title}.txt"
             
             # Guardar la transcripción en el directorio actual
-            filepath = os.path.join(os.getcwd(), filename)
+            filepath = os.path.join(os.getcwd(),'transcripts', filename)
 
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(formatted_transcript)
