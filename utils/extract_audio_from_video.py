@@ -1,6 +1,6 @@
 import os
 import sys
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 
 def convertir_a_mp3(ruta):
     """
